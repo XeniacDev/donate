@@ -171,67 +171,37 @@ body {
     justify-items: center;
 }
 
-.btc-box {
-    grid-column: 1;
-    grid-row: 1;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 40px;
-    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-}
-
-.eth-box {
-    grid-column: 2;
-    grid-row: 1;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 40px;
-    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-}
-
-.dot-box {
-    grid-column: 1;
-    grid-row: 2;
-    width: 400px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 40px;
-    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-}
-
-.ada-box {
-    grid-column: 2;
-    grid-row: 2;
-    width: 400px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 40px;
-    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-}
-
 .usdt-box {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 1;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.btc-box {
+    grid-column: 2;
+    grid-row: 1;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.ton-box {
+    grid-column: 1;
+    grid-row: 2;
     width: 400px;
     margin-top: 40px;
     margin-left: auto;
@@ -244,8 +214,23 @@ body {
     position: relative;
 }
 
-.link-box {
+.not-box {
     grid-column: 2;
+    grid-row: 2;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.doge-box {
+    grid-column: 1;
     grid-row: 3;
     width: 400px;
     margin-top: 40px;
@@ -260,6 +245,21 @@ body {
 }
 
 .shib-box {
+    grid-column: 2;
+    grid-row: 3;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.eth-box {
     grid-column: 1;
     grid-row: 4;
     width: 400px;
@@ -274,9 +274,39 @@ body {
     position: relative;
 }
 
-.doge-box {
+.dot-box {
     grid-column: 2;
     grid-row: 4;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.ada-box {
+    grid-column: 1;
+    grid-row: 5;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.link-box {
+    grid-column: 2;
+    grid-row: 5;
     width: 400px;
     margin-top: 40px;
     margin-left: auto;
@@ -656,7 +686,7 @@ body {
         justify-items: center;
     }
 
-    .btc-box {
+    .usdt-box {
         grid-column: 1;
         grid-row: 1;
         width: 320px;
@@ -670,7 +700,7 @@ body {
         position: relative;
     }
 
-    .eth-box {
+    .btc-box {
         grid-column: 1;
         grid-row: 2;
         width: 320px;
@@ -685,7 +715,7 @@ body {
         position: relative;
     }
 
-    .dot-box {
+    .ton-box {
         grid-column: 1;
         grid-row: 3;
         width: 320px;
@@ -700,7 +730,7 @@ body {
         position: relative;
     }
 
-    .ada-box {
+    .not-box {
         grid-column: 1;
         grid-row: 4;
         width: 320px;
@@ -715,7 +745,7 @@ body {
         position: relative;
     }
 
-    .usdt-box {
+    .doge-box {
         grid-column: 1;
         grid-row: 5;
         width: 320px;
@@ -730,7 +760,7 @@ body {
         position: relative;
     }
 
-    .link-box {
+    .shib-box {
         grid-column: 1;
         grid-row: 6;
         width: 320px;
@@ -745,7 +775,7 @@ body {
         position: relative;
     }
 
-    .shib-box {
+    .eth-box {
         grid-column: 1;
         grid-row: 7;
         width: 320px;
@@ -760,9 +790,39 @@ body {
         position: relative;
     }
 
-    .doge-box {
+    .dot-box {
         grid-column: 1;
         grid-row: 8;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .ada-box {
+        grid-column: 1;
+        grid-row: 9;
+        width: 320px;
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        border-radius: 32px;
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .link-box {
+        grid-column: 1;
+        grid-row: 10;
         width: 320px;
         margin-top: 32px;
         margin-left: auto;

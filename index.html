@@ -75,12 +75,37 @@
     </div>
 
     <div class="crypto-grid">
+        <div class="usdt-box">
+            <div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_usdt.svg" alt="Tether">
+                <div class="crypto-title-and-subtitle-group">
+                    <div class="crypto-title" id="title_usdt">Tether</div>
+                    <div class="crypto-subtitle">(TRC20)</div>
+                </div>
+            </div>
+
+            <div class="crypto-divider"></div>
+
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_usdt.svg" alt="Tether QR Code">
+
+            <div class="crypto-address-group">
+                <div class="crypto-address" id="address_tether">TCzXkGRaS5h9yr7WX2TEAgsCZDVqR4BDxv</div>
+                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
+                     onclick="copyAddressToClipboard('address_tether','title_usdt')">
+            </div>
+
+            <div class="crypto-minimum-box">
+                <div class="crypto-minimum-title">Minimum Amount:</div>
+                <div class="crypto-minimum-amount">0.001 USDT</div>
+            </div>
+        </div>
+
         <div class="btc-box">
             <div>
                 <img class="crypto-logo" src="res/crypto/ic_crypto_btc.svg" alt="Bitcoin">
                 <div class="crypto-title-and-subtitle-group">
                     <div class="crypto-title" id="title_btc">Bitcoin</div>
-                    <div class="crypto-subtitle">(Legacy)</div>
+                    <div class="crypto-subtitle">(SegWit)</div>
                 </div>
             </div>
 
@@ -89,14 +114,113 @@
             <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_btc.svg" alt="Bitcoin QR Code">
 
             <div class="crypto-address-group">
-                <div class="crypto-address" id="address_btc">1K6XQFmjgadocJ1B4MBTCVtyuoW44qGNzv</div>
+                <div class="crypto-address" id="address_btc">bc1qpkxcdttvqvku7afcxyaf48suezf4ms3482razw</div>
                 <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
                      onclick="copyAddressToClipboard('address_btc','title_btc')">
             </div>
 
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.0004 BTC</div>
+                <div class="crypto-minimum-amount">0.0005 BTC</div>
+            </div>
+        </div>
+
+        <div class="ton-box">
+            <div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_ton.svg" alt="TON">
+                <div class="crypto-title-and-subtitle-group">
+                    <div class="crypto-title" id="title_ton">TON</div>
+                    <div class="crypto-subtitle">(The Open Network)</div>
+                </div>
+            </div>
+
+            <div class="crypto-divider"></div>
+
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_ton.svg" alt="TON QR Code">
+
+            <div class="crypto-address-group">
+                <div class="crypto-address" id="address_ton">EQDK2JiyAKCTTuQWwgObvz9dfxoyMXKHWzwZ03im9UD3sSze</div>
+                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
+                     onclick="copyAddressToClipboard('address_ton','title_ton')">
+            </div>
+
+            <div class="crypto-minimum-box">
+                <div class="crypto-minimum-title">Comment:</div>
+                <div class="crypto-minimum-amount">1177366864</div>
+            </div>
+        </div>
+
+        <div class="not-box">
+            <div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_not.svg" alt="Notcoin">
+                <div class="crypto-title-and-subtitle-group">
+                    <div class="crypto-title" id="title_not">Notcoin</div>
+                    <div class="crypto-subtitle">(The Open Network)</div>
+                </div>
+            </div>
+
+            <div class="crypto-divider"></div>
+
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_not.svg" alt="TON QR Code">
+
+            <div class="crypto-address-group">
+                <div class="crypto-address" id="address_not">EQDK2JiyAKCTTuQWwgObvz9dfxoyMXKHWzwZ03im9UD3sSze</div>
+                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
+                     onclick="copyAddressToClipboard('address_not','title_not')">
+            </div>
+
+            <div class="crypto-minimum-box">
+                <div class="crypto-minimum-title">Comment:</div>
+                <div class="crypto-minimum-amount">1177366864</div>
+            </div>
+        </div>
+
+        <div class="doge-box">
+            <div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_doge.svg" alt="Dogecoin">
+                <div class="crypto-title-group">
+                    <div class="crypto-title" id="title_doge">Dogecoin</div>
+                </div>
+            </div>
+
+            <div class="crypto-divider"></div>
+
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_doge.svg" alt="Dogecoin QR Code">
+
+            <div class="crypto-address-group">
+                <div class="crypto-address" id="address_doge">DJ1JJJ8HX9xdaXeEDX9S5f3FRkA3uoFdKM</div>
+                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
+                     onclick="copyAddressToClipboard('address_doge','title_doge')">
+            </div>
+
+            <div class="crypto-minimum-box">
+                <div class="crypto-minimum-title">Minimum Amount:</div>
+                <div class="crypto-minimum-amount">1 DOGE</div>
+            </div>
+        </div>
+
+        <div class="shib-box">
+            <div>
+                <img class="crypto-logo" src="res/crypto/ic_crypto_shib.svg" alt="Shiba Inu">
+                <div class="crypto-title-and-subtitle-group">
+                    <div class="crypto-title" id="title_shib">Shiba Inu</div>
+                    <div class="crypto-subtitle">(BEP20/BSC)</div>
+                </div>
+            </div>
+
+            <div class="crypto-divider"></div>
+
+            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_shib.svg" alt="Shiba Inu QR Code">
+
+            <div class="crypto-address-group">
+                <div class="crypto-address" id="address_shiba">0x12524075227ab5333f585710cc39cdff8b60963b</div>
+                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
+                     onclick="copyAddressToClipboard('address_shiba','title_shib')">
+            </div>
+
+            <div class="crypto-minimum-box">
+                <div class="crypto-minimum-title">Minimum Amount:</div>
+                <div class="crypto-minimum-amount">0 SHIB</div>
             </div>
         </div>
 
@@ -174,31 +298,6 @@
             </div>
         </div>
 
-        <div class="usdt-box">
-            <div>
-                <img class="crypto-logo" src="res/crypto/ic_crypto_usdt.svg" alt="Tether">
-                <div class="crypto-title-and-subtitle-group">
-                    <div class="crypto-title" id="title_usdt">Tether</div>
-                    <div class="crypto-subtitle">(TRC20)</div>
-                </div>
-            </div>
-
-            <div class="crypto-divider"></div>
-
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_usdt.svg" alt="Tether QR Code">
-
-            <div class="crypto-address-group">
-                <div class="crypto-address" id="address_tether">TCzXkGRaS5h9yr7WX2TEAgsCZDVqR4BDxv</div>
-                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_tether','title_usdt')">
-            </div>
-
-            <div class="crypto-minimum-box">
-                <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0.5 USDT</div>
-            </div>
-        </div>
-
         <div class="link-box">
             <div>
                 <img class="crypto-logo" src="res/crypto/ic_crypto_link.svg" alt="Chainlink">
@@ -221,55 +320,6 @@
             <div class="crypto-minimum-box">
                 <div class="crypto-minimum-title">Minimum Amount:</div>
                 <div class="crypto-minimum-amount">0 LINK</div>
-            </div>
-        </div>
-
-        <div class="shib-box">
-            <div>
-                <img class="crypto-logo" src="res/crypto/ic_crypto_shib.svg" alt="Shiba Inu">
-                <div class="crypto-title-and-subtitle-group">
-                    <div class="crypto-title" id="title_shib">Shiba Inu</div>
-                    <div class="crypto-subtitle">(BEP20/BSC)</div>
-                </div>
-            </div>
-
-            <div class="crypto-divider"></div>
-
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_shib.svg" alt="Shiba Inu QR Code">
-
-            <div class="crypto-address-group">
-                <div class="crypto-address" id="address_shiba">0x12524075227ab5333f585710cc39cdff8b60963b</div>
-                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_shiba','title_shib')">
-            </div>
-
-            <div class="crypto-minimum-box">
-                <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">0 SHIB</div>
-            </div>
-        </div>
-
-        <div class="doge-box">
-            <div>
-                <img class="crypto-logo" src="res/crypto/ic_crypto_doge.svg" alt="Dogecoin">
-                <div class="crypto-title-group">
-                    <div class="crypto-title" id="title_doge">Dogecoin</div>
-                </div>
-            </div>
-
-            <div class="crypto-divider"></div>
-
-            <img class="crypto-qr-code" src="res/qr_codes/ic_qr_code_doge.svg" alt="Dogecoin QR Code">
-
-            <div class="crypto-address-group">
-                <div class="crypto-address" id="address_doge">DJ1JJJ8HX9xdaXeEDX9S5f3FRkA3uoFdKM</div>
-                <img class="crypto-address-copy" src="res/ic_copy.svg" alt="Copy Address"
-                     onclick="copyAddressToClipboard('address_doge','title_doge')">
-            </div>
-
-            <div class="crypto-minimum-box">
-                <div class="crypto-minimum-title">Minimum Amount:</div>
-                <div class="crypto-minimum-amount">5 DOGE</div>
             </div>
         </div>
     </div>
